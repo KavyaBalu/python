@@ -1,0 +1,4 @@
+my_list=(input("enter the list of numbers:"))
+numlist=my_list.split(',')
+even=[i for i in numlist if int(i)%2==0]
+print("even number from the list are:",even)
